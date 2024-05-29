@@ -214,7 +214,7 @@ class Factory
      */
     public function setLeeway($leeway)
     {
-        $this->leeway = $leeway;
+        $this->leeway = (int) $leeway;
 
         return $this;
     }
